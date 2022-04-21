@@ -20,4 +20,4 @@ is equivalent to
     border: 5px solid gradient()
 ```
 
-- use inset: 5px to center the pseudo element
+- use ```inset: 5px```` to center the pseudo element
