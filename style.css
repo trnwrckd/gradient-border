@@ -79,6 +79,7 @@ p{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .discount-price{
@@ -129,10 +130,9 @@ p{
         grid-template-columns: repeat(2,1fr);
     }
     .grid-img img {
-        max-width: 20vw;
+        max-width: 25vw;
     }
 }
-
 @media only screen and (max-width : 692px){
     .grid{
         grid-template-columns: repeat(1,1fr);
@@ -140,12 +140,4 @@ p{
     .grid-img img{
         max-width: 40vw;
     }
-}
-
-@media only screen and (max-width : 400px){
-  .flexBox{
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-  }  
 }
