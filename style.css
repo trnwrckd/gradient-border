@@ -43,11 +43,8 @@ p{
 
 .grid-item{
     background:  linear-gradient(40deg , rgb(118, 223, 223) ,rgb(186, 68, 255), rgb(233, 118, 137));
-
     min-height: 300px;
-
     border-radius: 5px;
-    
     position: relative;
     padding: 2.5%;
     z-index: 1;
@@ -55,16 +52,16 @@ p{
 
 .grid-item:before{
     content: '';
-    width: 97%;
-    height: 97%;
-    width: calc(100% - 10px);
-    height: calc(100% - 10px);
-    top: 5px;
-    left: 5px;
-    border-radius: 5px;
-    background-color: white;
     position: absolute;
     z-index: -1;
+
+    /*for 5px border on all sides */
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    inset: 5px;
+
+    border-radius: 5px;
+    background-color: white;
 }
 
 .grid-content{
