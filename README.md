@@ -10,14 +10,14 @@
 - On the pseudo element,
 
 ```
-    width: calc(100% - 10px);
-    height: calc(100% - 10px);
+width: calc(100% - 10px);
+height: calc(100% - 10px);
 ```
 
 is equivalent to
 
 ```
-    border: 5px solid gradient()
+border: 5px solid gradient()
 ```
 
 - use `inset: 5px` to center the pseudo element
